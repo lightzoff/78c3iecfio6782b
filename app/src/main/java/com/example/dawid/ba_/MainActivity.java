@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         Intent in = new Intent(this,ViewShowsActivity.class);
         this.startActivity(in);
     }
-    //comment david david david david David David Final
-    // Jozella is not as cool as David
+    //comment david david david david David David Final test
+    //Dawid
+
 }
