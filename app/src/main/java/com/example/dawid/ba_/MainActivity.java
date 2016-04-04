@@ -25,10 +25,3 @@ public class MainActivity extends AppCompatActivity {
         Intent in = new Intent(this,ViewShowsActivity.class);
         this.startActivity(in);
     }
-    //comment david david david david David David Final test
-    //Dawid
-    //jozella
-} //jo
-    //jojo
-    //jooooo
-    //ihaternd
