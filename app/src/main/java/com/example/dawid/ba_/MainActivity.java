@@ -21,7 +21,9 @@ public class MainActivity extends AppCompatActivity {
 
         });
     }
-    public void ViewShowsActivity(){
-        Intent in = new Intent(this,ViewShowsActivity.class);
+
+    public void ViewShowsActivity() {
+        Intent in = new Intent(this, Home.class);
         this.startActivity(in);
     }
+}
