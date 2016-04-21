@@ -15,7 +15,7 @@ public class BuyTicket extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button btn = (Button) findViewById(R.id.nav_camera);
+        Button btn = (Button) findViewById(R.id.btnViewShows);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
