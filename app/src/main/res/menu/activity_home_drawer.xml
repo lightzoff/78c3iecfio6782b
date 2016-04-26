@@ -6,7 +6,7 @@
         <item
             android:id="@+id/nav_whatsOn"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Whats On" />
+            android:title="What's On" />
         <item
             android:id="@+id/nav_comingUp"
             android:icon="@drawable/ic_menu_gallery"
@@ -14,15 +14,15 @@
         <item
             android:id="@+id/nav_about"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Buy Tickets" />
+            android:title="About" />
         <item
             android:id="@+id/nav_locationAndContact"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Contact" />
+            android:title="Location and Contact" />
         <item
             android:id="@+id/nav_settings"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Contact" />
+            android:title="Settings" />
     </group>
 
     <item android:title="DavidIsAwesome">

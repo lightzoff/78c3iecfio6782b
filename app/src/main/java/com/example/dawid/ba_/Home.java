@@ -106,6 +106,7 @@ public class Home extends AppCompatActivity
                     getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();
+
         } else if (id == R.id.nav_comingUp) {
             ComingUpFragment fragment = new ComingUpFragment();
             android.support.v4.app.FragmentTransaction fragmentTransaction=
@@ -114,15 +115,25 @@ public class Home extends AppCompatActivity
             fragmentTransaction.commit();
 
         } else if (id == R.id.nav_about) {
-            ComingUpFragment fragment = new ComingUpFragment();
+            AboutFragment fragment = new AboutFragment();
             android.support.v4.app.FragmentTransaction fragmentTransaction=
                     getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();
 
         } else if (id == R.id.nav_locationAndContact) {
+            ContactLocationFragment fragment = new ContactLocationFragment();
+            android.support.v4.app.FragmentTransaction fragmentTransaction=
+                    getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.fragment_container, fragment);
+            fragmentTransaction.commit();
 
         } else if (id == R.id.nav_settings) {
+            SettingsFragment fragment = new SettingsFragment();
+            android.support.v4.app.FragmentTransaction fragmentTransaction=
+                    getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.fragment_container, fragment);
+            fragmentTransaction.commit();
 
         }
 
