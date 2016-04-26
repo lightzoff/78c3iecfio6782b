@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,102 +7,28 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.dawid.ba_.MainActivity">
+    tools:context="com.example.dawid.ba_.MainActivity"
+    android:background="#70bfff">
 
 
-    <ScrollView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="782dp"
-                android:orientation="vertical"
-                android:weightSum="1">
-        <Button
-            android:layout_width="398dp"
-            android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button"
-            android:layout_above="@+id/btnViewShows"
-            android:layout_alignEnd="@+id/btnViewShows" />
+    <Button
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="HomePageTest"
+android:id="@+id/btnViewShows"
+        android:layout_weight="0.07"
+        android:layout_gravity="center_vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="196dp" />
 
-        <Button
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="ViewShows"
-    android:id="@+id/btnViewShows"
-    android:layout_alignParentBottom="true"
-    android:layout_centerHorizontal="true"
-    android:layout_marginBottom="158dp"
-    android:layout_weight="0.07" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In With Facebook"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp" />
 
-        <Button
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="New Button"
-    android:id="@+id/button2"
-    android:layout_above="@+id/button"
-    android:layout_centerHorizontal="true" />
-
-<Button
-    style="?android:attr/buttonStyleSmall"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="New Button"
-    android:id="@+id/button3"
-    android:layout_below="@+id/btnViewShows"
-    android:layout_alignStart="@+id/button4"
-    android:layout_weight="0.05" />
-
-<Button
-    android:layout_width="334dp"
-    android:layout_height="wrap_content"
-    android:text="New Button"
-    android:id="@+id/button4"
-    android:layout_above="@+id/button3"
-    android:layout_centerHorizontal="true"
-    android:layout_weight="0.03" />
-
-<Button
-    android:layout_width="294dp"
-    android:layout_height="wrap_content"
-    android:text="New Button"
-    android:id="@+id/button5"
-    android:layout_above="@+id/button4"
-    android:layout_centerHorizontal="true"
-    android:layout_gravity="center_horizontal"
-    android:layout_weight="0.03" />
-
-        <Button
-            android:layout_width="256dp"
-            android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button6"
-            android:layout_gravity="center_horizontal" />
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="New Button"
-                    android:id="@+id/button8"
-                    android:layout_gravity="center_horizontal" />
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="New Button"
-                    android:id="@+id/button9"
-                    android:layout_gravity="center_horizontal" />
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="New Button"
-                    android:id="@+id/button7"
-                    android:layout_gravity="center_horizontal" />
-
-            </LinearLayout>
-
-    </ScrollView>
-
-</LinearLayout>
+</RelativeLayout>
